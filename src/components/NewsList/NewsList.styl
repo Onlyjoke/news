@@ -1,0 +1,28 @@
+@import './../../variables.styl'
+
+.root
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+
+// elements
+
+.newsItem
+	width: 45%
+	margin-bottom: 30px
+
+.newsImageLink,
+.newsTitle
+	margin-bottom: 15px
+
+
+// modifiers
+
+
+//media
+
+@media (max-width: 768px) {
+	.newsItem {
+		width: 100%;
+	}
+}

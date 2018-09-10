@@ -1,0 +1,35 @@
+@import './../../variables.styl'
+
+.root
+	//
+
+// elements
+
+.title
+	font-size: 30px
+	margin-bottom: 30px
+
+.img,
+.text
+	margin-bottom: 30px
+
+.btnDelete
+	padding: 10px 30px
+	width: 25%
+	margin: 0 auto
+	background: $fail_color
+	color: #fff
+	cursor: pointer
+	border-radius: 3px
+
+	&:hover
+		background: darken($fail_color, 10)
+
+// modifiers
+
+
+@media (max-width: 768px) {
+	.btnDelete {
+		width: 100%;
+	}
+}
